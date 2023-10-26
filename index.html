@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+               <h1 class="logo"><span id="logo">Ne</span>travati</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header" >Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skillPage">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>WELCOME TO MY WORLD</p>
+                <h1>Hello, I'm <br>Netravati V Patil<br><span><span>Java Full Stack Developer</span></h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-----------About ME page--------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="NETRAVATI PIC.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About <span style="color:#ff004f;">Me</span> </h1>
+                    <p>"Seeking an opportunity to utilize my skills in serving
+                        in an organization to the best of my knowledge and
+                        hoping to play an inventive and active role in the
+                        organization growth of technology"</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('language')">Language</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>HTML</li>
+                            <li>Css</li>
+                            <li>Java Script</li>
+                            <li>Bootstrap</li>
+                            <li>Core & Advanced Java </li>
+                            <li>Spring</li>
+                            <li>Spring Boot</li>
+                            <li>Hibernate</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="language">
+                        <ul>
+                            <li>English</li>
+                            <li>Kannada</li>
+                            <li>Hindi</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span style="color:#ff004f; ">2018-2021</span><br>BSc Computer Science <br>
+                                Govenrment First Grade College<br> Karnataka University Dharwad<br>Percentage:75%</li>
+                            <li><span style="color:#ff004f;">2016-2018</span><br>PUC(Pre-University Course 12th)<br>
+                                Kittel Science PU College<br> Department Of Pre-University Education<br>Percentage:61%</li>
+                            <li><span style="color:#ff004f;">2015-2016</span><br>SSLC(10th)<br> Govenrment High School
+                                Narendra<br>
+                                Karnataka Secondary Education<br>Percentage:84%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <!----------Skills Page------------->
+
+    <div  id="skillPage">
+        <h1 class="sub-title" style=" text-align: center;">Skil<span style="color:#ff004f;">ls</span></h1>
+        <div class="box">
+            <div class="Division">
+                <div class="html">
+                    <img class="imag" src="https://img.icons8.com/color/48/000000/html-5--v1.png">
+                    <button class="bt1">HTML</button>
+                </div>
+                <div class="css">
+                    <img class="imag" src="https://img.icons8.com/color/48/000000/css3.png">
+                    <button class="bt1">CSS</button>
+                </div>
+                <div class="JavaScript">
+                    <img class="imag" src="https://img.icons8.com/color/48/000000/javascript--v1.png">
+                    <button class="bt1">JavaScript</button>
+                </div>
+            </div>
+            <div class="division">
+                <div class="bootstap">
+                    <img class="imag" src="https://img.icons8.com/color/48/000000/bootstrap.png">
+                    <button class="bt1">Bootstrap</button>
+                </div>
+           
+            
+                <div class="angular">
+                    <img class="imag" src="https://static.javatpoint.com/tutorial/angular7/images/angular-7-logo.png">
+                    <button class="bt2">Angular</button>
+                </div>
+                <div class="java">
+                    <img class="imag" src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png">
+                    <button class="bt2">Java</button>
+                </div>
+            </div>
+            <div class="framework">
+                <div class="sql">
+                    <img class="imag" src="https://img.icons8.com/?size=512&id=hKw7Mn8TNTuz&format=png">
+                    <button class="bt2">SQL</button>
+                </div>
+              
+                <div class="spring">
+                    <img class="imag" src="https://img.icons8.com/?size=512&id=90519&format=png">
+                    <button class="bt3">Spring Boot</button>
+                </div>
+                
+                <div class="hibernate">
+                    <img class="imag" src="https://www.javatpoint.com/images/hibernate/hibernate2.png">
+                    <button class="bt3">Hibernate</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-----------Portfolio Page--------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title" style=" text-align: center; margin-top: 50px;">Portfo<span style="color:#ff004f;">lio</span></h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="HotelWebsite.JPG">
+                    <div class="layer">
+                        <h3><u>Hotel Website</u></h3>
+                        <p>Developed the Hotel website using HTML,CSS,JavaScript Technologies without responsive.</p>
+                        <a href="https://ne2820.github.io/HotelWebsite.github.io/"><i class='fa fa-external-link'></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="AnologClock.PNG">
+                    <div class="layer">
+                        <h3><u>Anolog Clock</u></h3>
+                        <p>Developed the AnologClock using HTML,CSS,JavaScript Technologies.</p>
+                        <a href=" https://ne2820.github.io/Clock.github.io/"><i class='fa fa-external-link'></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Interior.JPG">
+                    <div class="layer">
+                        <h3><u>Interior Design Website</u></h3>
+                        <p>Developed interior project with Booking management,packages,Services,review and contact without responsive.
+                            <br> Technology used- HTML,CSS,JavaScript.</p>
+                        <a href="https://ne2820.github.io/InteriorDesign.github.io/"><i class='fa fa-external-link'></i></a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="work-list1">
+                <div class="work1">
+                    <img src="University.PNG">
+                    <div class="layer1">
+                        <h3>University Website</h3>
+                        <p>Developed University project with responsive.
+                            <br> Technology used- HTML , CSS , JavaScript.</p>
+                        <a href="https://ne2820.github.io/UniversityWebsite.github.io/"><i class='fa fa-external-link'></i></a>
+                    </div>
+                </div>
+                <div class="work1">
+                    <img src="OnlineBook.PNG">
+                    <div class="layer1">
+                        <h3><u>  Online Book Store Website</u></h3>
+                        <p>Developed user-friendly online book store
+                            website to provide customers with a seamless
+                            browsing and purchasing experience. <br>
+                           Technology used- HTML , CSS , JavaScript.</p>
+                        <a href="https://ne2820.github.io/OnlineBookStore.github.io/"><i class='fa fa-external-link'></i></a>
+                    </div>
+                </div>
+                <div class="work1">
+                    <img src="Tourism.PNG">
+                    <div class="layer1">
+                        <h3><u>Travel Website</u></h3>
+                        <p>Developed Tourism project with Booking management,packages,Services,review and contact with responsive.
+                           <br> Technology used- HTML , CSS , JavaScript.
+                        </p>
+                        <a href="https://ne2820.github.io/TravelWebsite.github.io/"><i class='fa fa-external-link'></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-----------Contact Page--------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact <span style="color:#ff004f;">Me</span> </h1>
+                    <p><i class="fa fa-envelope"></i> netravatipatil0928@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +918867626802</p>
+                    <p><i class="fa-solid fa-location-dot"></i> V V Patil At Shivalingeshwar Nagar Narendra TQ/Dist:Dharwad
+                        PinCode:580005</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="#"  class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" row="6 placeholder" placeholder="Your Massage"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Netravati. Made with <i class="fa fa-heart"></i> by Tutorial </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
